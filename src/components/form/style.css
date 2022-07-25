@@ -1,36 +1,40 @@
-.add-form, .input-group {
-    align-items: center;
-    display: flex;
-    gap: 20px;
-}
 .add-form {
     background-color: #eee;
     border-radius: 12px;
-    justify-content: space-between;
     margin: 0 auto;
-    padding: 30px;
-}
-
-.add-form, .input-group {
-    align-items: center;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
     gap: 20px;
-}
-
-.add-input {
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .form-label {
+    font-size: 16px;
+  font-weight: 700;
+  }
+  
+  .add-input{ 
+    height: 40px;
+    width: 240px;
     border: none;
     border-radius: 12px;
-    height: 40px;
     padding: 0 12px;
-    width: 240px;
-}
-
-.add-button {
-    background-color: teal;
+  }
+  
+  
+  .add-button {
     border: none;
+    height: 40px;
     border-radius: 10px;
+    background-color: teal;
+    width: 140px;
     color: #fff;
     font-weight: 700;
-    height: 40px;
-    width: 140px;
-}
+  }

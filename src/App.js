@@ -9,12 +9,13 @@ import TodoList from './pages/TodoList';
 function App() {
   return (
     <div className="App">
+      <Layout>
       <Header/>
       <Form/>
-      <Layout/>
       <List/>
       <Todo/>
       <TodoList/>
+      </Layout>
     </div>
   );
 }
