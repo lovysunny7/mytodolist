@@ -1,0 +1,23 @@
+.todo-container {
+    border: 4px solid teal;
+    border-radius: 12px;
+    padding: 12px 24px 24px;
+    width: 270px;
+}
+
+.todo-delete-button {
+    background-color: #fff;
+    border: 2px solid red;
+}
+.button {
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 40px;
+    width: 50%;
+}
+
+.todo-complete-button {
+    background-color: #fff;
+    border: 2px solid green;
+}
