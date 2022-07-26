@@ -1,9 +1,9 @@
-import React,{useState} from "react";
+import React from "react";
 import './style.css';
-const Header = () =>{
 
+const Header = () =>{
    return (
-   <div class="container">
+   <div className="container">
     <div>My Todo List</div>
     <div>React</div>
     </div>

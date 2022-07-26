@@ -10,6 +10,7 @@
     display: flex;
     gap: 10px;
     margin-top: 24px;
+    
   }
   
   .button{
@@ -18,14 +19,27 @@
     height: 40px;
     border-radius: 8px;
     cursor: pointer;
+    font-family:'jua', cursive;
   }
   
   .todo-delete-button {
     border: 2px solid red;
     background-color: #fff;
   }
+
+  .todo-delete-button:hover {
+    border: 2px solidr red;
+    background-color: red;
+  }
+  
   
   .todo-complete-button {
     border: 2px solid green;
     background-color: #fff;
+  }
+
+  .todo-complete-button:hover {
+    border: 2px solid green;
+    background-color: green;
+    color: #fff;
   }
