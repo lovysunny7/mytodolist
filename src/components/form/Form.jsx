@@ -22,10 +22,10 @@ function Form({ setTodos, todos }) {
 
   const onSubmitHandler = (e) => {
     e.preventDefault();
-    const { name, value } = e.target;
     nextId.current +=1;
     // console.log(nextId.current);
-    setTodos([...todos, {...todo,[name]:value, id:nextId.current}]);
+    setTodos([...todos, {...todo,title:e.target.title.value,body:e.target.title.value,id:nextId.current}]);
+    // console.log(todos)
     setTodo(initialState);
   };
 // onChange랑 valus랑 같이 쓰인다.
@@ -35,7 +35,7 @@ function Form({ setTodos, todos }) {
         <label className="form-label">제목</label>
         <input
           type="text"
-          name="title"
+          id="title"
           // value={todo.title}
           className="add-input input-body"
           // onChange={onChangeHandler}
@@ -43,7 +43,7 @@ function Form({ setTodos, todos }) {
         <label className="form-label">내용</label>
         <input
           type="text"
-          name="body"
+          id="body"
           // value={todo.body}
           className="add-input"
           // onChange={onChangeHandler}
