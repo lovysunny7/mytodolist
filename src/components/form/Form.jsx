@@ -26,7 +26,7 @@ function Form({ setTodos, todos }) {
     // console.log(nextId.current);
     setTodos([...todos, {...todo,title:e.target.title.value,body:e.target.title.value,id:nextId.current}]);
     // console.log(todos)
-    setTodo(initialState);
+    setTodo(initialState); 
   };
 // onChange랑 valus랑 같이 쓰인다.
   return (
